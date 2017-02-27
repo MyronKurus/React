@@ -1,4 +1,4 @@
-React Template
+React Template!
 
 Use next commands to run it:
 
