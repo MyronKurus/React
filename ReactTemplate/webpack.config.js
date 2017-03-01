@@ -7,7 +7,6 @@ module.exports = {
   devtool: debug ? 'inline-sourcemap' : null,
   entry: [
     'script!jquery/dist/jquery.min.js',
-    'script!foundation-sites/dist/js/foundation.min.js',
     '../app/app.jsx'
   ],
   resolve: {
