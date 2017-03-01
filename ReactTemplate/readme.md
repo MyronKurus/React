@@ -1,11 +1,10 @@
-React Template!
+React Template, Bootstrap and SASS are included
 
-Use next commands to run it:
+To run application use next commands:
 
-1 - npm install
+1) npm install
+2) webpack
+3) npm run dev
+4) input in browser's address line http://localhost:8080/
 
-2 - webpack --watch
-
-3 - npm run dev
-
-http://localhost:8080
+Enjoy it :)
