@@ -1,0 +1,39 @@
+.container {
+  border: $light-gray-border;
+  padding: 20px 0;
+  background-color: $light-gray;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+.container__header {
+  border-bottom: $light-gray-border;
+  padding: 0 10px;
+
+  input {
+    margin-bottom: 0;
+  }
+
+  label {
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+
+  > :last-child {
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+.container__message {
+  color: #aaa;
+  padding: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.container__footer {
+  border-top: $light-gray-border;
+  padding: 10px 10px 0 10px;
+}
